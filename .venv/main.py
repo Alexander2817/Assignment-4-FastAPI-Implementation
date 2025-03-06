@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI
 
 app = FastAPI()
-#Set up for code
+#Set up the code for the assignment
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
